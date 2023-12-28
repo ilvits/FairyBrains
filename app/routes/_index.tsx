@@ -22,6 +22,8 @@ export default function Index() {
         autoPlay
         loop
         muted
+        playsInline
+        // poster='/static/images/aura.png'
         className='absolute z-10 w-auto min-w-full min-h-full max-w-none'
       >
         <source src='/static/video/aura.webm' type='video/webm' />
