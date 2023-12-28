@@ -24,8 +24,9 @@ export default function Index() {
         muted
         className='absolute z-10 w-auto min-w-full min-h-full max-w-none'
       >
-        {/* <source src='/static/video/aura.webm' type='video/webm' /> */}
+        <source src='/static/video/aura.webm' type='video/webm' />
         <source src='/static/video/aura.mp4' type='video/mp4' />
+        <source src='/static/video/aura.mov' type='video/mov' />
         Your browser does not support the video tag.
       </video>
     </header>
